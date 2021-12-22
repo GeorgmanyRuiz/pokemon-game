@@ -13,18 +13,14 @@ body {
 
 }
 
-h1 {
+header {
   text-align: center;
-  font-family: 'Pokemon Solid', sans-serif;
-  color: transparent;
-  background: rgba(142,142,0,0.9);
-  -webkit-background-clip: text;
-  background-clip: text;
-  text-shadow: 3px 3px 3px yellow, -6px 6px 2px #0300A8;
-  font-size: 3.5rem;
-  -webkit-text-stroke: 5px rgba(25, 25, 255, 0.9);
-  letter-spacing: 5px;
+  padding: 20px 0;
+  margin: 10px;
+}
 
+header a img {
+  width: 75%;
 }
 
 .score-board {
@@ -44,7 +40,7 @@ h1 {
 
 .badge {
   padding: 2px 10px;
-  background: rgba(238,21,21,0.9);
+  background: rgba(238,21,21);
   border: 3px solid rgba(34,34,36);
   border-radius: 6px;
   color: white;
