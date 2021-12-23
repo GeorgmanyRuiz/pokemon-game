@@ -19,6 +19,7 @@ header {
   margin: 10px;
 }
 
+
 header a img {
   width: 75%;
 }
@@ -125,6 +126,33 @@ header a img {
   font-size: 20px;
   margin-top: 20px;
 }
+.green-glow {
+  border: 4px solid #21c700;
+  box-shadow:  0 0 10px #28f000;
+}
+
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow:  0 0 10px #d01115;
+}
+
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow:  0 0 10px #25292b;
+}
+
+p #action-message {
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+}
+
+#action-message .btm-font {
+  color: yellow;
+  text-shadow: 2px 2px 2px rgba(50,50,200);
+}
+
+
+
+
 
 @media only screen and (max-width: 300px) {
   h1 {
