@@ -9,6 +9,11 @@ const water_div = document.getElementById("w");
 const grass_div = document.getElementById("g");
 
 
+var myAudio = document.getElementById("audio1");
+  myAudio.onloadeddata = function() {
+  myAudio.volume = 0.1;
+};
+
 function getComputerChoice() {
   const choices = ["f", "w", "g"];
   const randomNumber = Math.floor(Math.random() * 3);
@@ -69,12 +74,6 @@ function game(userChoice){
       break;
   }
 }
-
-var myAudio = document.getElementById("audio1");
-  myAudio.onloadeddata = function() {
-  myAudio.volume = 0.15;
-};
-
 
 
 
